@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585D2F6729C80A7C00EB0DBC /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 585D2F6629C80A7C00EB0DBC /* MyObject.m */; };
 		587C3F6929BF19C900E49C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C3F6829BF19C900E49C3E /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		585D2F6529C80A7C00EB0DBC /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		585D2F6629C80A7C00EB0DBC /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		587C3F6529BF19C900E49C3E /* ARC测试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ARC测试"; sourceTree = BUILT_PRODUCTS_DIR; };
 		587C3F6829BF19C900E49C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				587C3F6829BF19C900E49C3E /* main.m */,
+				585D2F6529C80A7C00EB0DBC /* MyObject.h */,
+				585D2F6629C80A7C00EB0DBC /* MyObject.m */,
 			);
 			path = "ARC测试";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585D2F6729C80A7C00EB0DBC /* MyObject.m in Sources */,
 				587C3F6929BF19C900E49C3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
